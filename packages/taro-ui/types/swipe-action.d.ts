@@ -59,6 +59,7 @@ export interface AtSwipeActionState {
   componentId: string
   offsetSize: number
   _isOpened: boolean
+  needAnimation: boolean
 }
 
 export interface AtSwipeActionOptionsProps extends AtComponent {
